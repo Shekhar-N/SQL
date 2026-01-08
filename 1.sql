@@ -8,3 +8,4 @@ with cte as (
 	from club, unnest(string_to_array(coalesce(edu,'0'),':')) as edu_ex
 )
 select club_id, sum(points) as points from cte group by club_id order by club_id
+
