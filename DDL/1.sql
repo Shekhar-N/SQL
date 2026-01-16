@@ -1,7 +1,7 @@
 Create Table Club (
 Club_Id int,
 Member_Id int,
-EDU varchar(30))
+EDU varchar(30));
 
 Insert into Club Values 
 (1001,210,Null),
